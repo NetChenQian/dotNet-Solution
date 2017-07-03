@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionBreakpoint", "ConditionBreakpoint\ConditionBreakpoint.csproj", "{6A94B0F3-5C69-4342-BC58-96DF12699CB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandler", "ExceptionHandler\ExceptionHandler.csproj", "{59EE389E-732C-4E4C-AFF8-6F70846DDE82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6A94B0F3-5C69-4342-BC58-96DF12699CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A94B0F3-5C69-4342-BC58-96DF12699CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A94B0F3-5C69-4342-BC58-96DF12699CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
