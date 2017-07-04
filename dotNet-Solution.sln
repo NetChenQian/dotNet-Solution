@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginStandard", "PluginDev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginExample", "PluginDevelop\PluginExample\PluginExample.csproj", "{675DB6FB-66A0-434E-88B6-4744F9A7EA21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLOperation", "XMLOperation\XMLOperation.csproj", "{3A7E222F-DAD3-4961-95D3-00486653FD96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7E222F-DAD3-4961-95D3-00486653FD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7E222F-DAD3-4961-95D3-00486653FD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7E222F-DAD3-4961-95D3-00486653FD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7E222F-DAD3-4961-95D3-00486653FD96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
