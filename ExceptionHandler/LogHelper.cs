@@ -13,7 +13,7 @@ namespace ExceptionHandler
             Task.Factory.StartNew(() => {
                 if (exceptions != null && exceptions.Length > 0)
                 {
-                    // 文件夹路径
+                    // directory path
                     string dir = Environment.CurrentDirectory + "\\Log";
                     if (!Directory.Exists(dir))
                     {
@@ -25,7 +25,7 @@ namespace ExceptionHandler
                     {
                         Directory.CreateDirectory(dir);
                     }
-                    // 文件名
+                    // file name
                     string filename = now.ToLongDateString() + now.Hour;
                     FileInfo[] fileInfos = new DirectoryInfo(dir).GetFiles();
                     if (fileInfos != null && fileInfos.Length > 0)
@@ -34,10 +34,9 @@ namespace ExceptionHandler
                         if (fileInfo.Length >= Max_File_Size)
                         {
                             string lastFileName = fileInfo.Name;
-                            // 文件已存在
+                            // file already exist
                             if (lastFileName.IndexOf(filename) > 0)
                             {
-                                // 已存在多个包含目标文件名的文件
                                 if (lastFileName.Length > filename.Length)
                                 {
                                     int suffix = Convert.ToInt32(lastFileName.Substring(filename.Length + 2)) + 1;
@@ -50,9 +49,9 @@ namespace ExceptionHandler
                             }
                         }
                     }
-                    // 绝对路径
+                    // absolute path
                     string path = dir + "\\" + filename + ".log";
-                    // 写日志
+                    // write log
                     try
                     {
                         using (StreamWriter sw = new StreamWriter(path, true))

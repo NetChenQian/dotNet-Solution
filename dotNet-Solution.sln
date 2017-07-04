@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionBreakpoint", "ConditionBreakpoint\ConditionBreakpoint.csproj", "{6A94B0F3-5C69-4342-BC58-96DF12699CB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionBreakpoint", "ConditionBreakpoint\ConditionBreakpoint.csproj", "{6A94B0F3-5C69-4342-BC58-96DF12699CB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandler", "ExceptionHandler\ExceptionHandler.csproj", "{59EE389E-732C-4E4C-AFF8-6F70846DDE82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginDevelop", "PluginDevelop", "{9FC6B70B-A693-43B3-8308-DD240E9D255E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "PluginDevelop\Notepad\Notepad.csproj", "{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginStandard", "PluginDevelop\PluginStandard\PluginStandard.csproj", "{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginExample", "PluginDevelop\PluginExample\PluginExample.csproj", "{675DB6FB-66A0-434E-88B6-4744F9A7EA21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,25 @@ Global
 		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EE389E-732C-4E4C-AFF8-6F70846DDE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675DB6FB-66A0-434E-88B6-4744F9A7EA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AC3ACE4-3C71-4FDC-AFC8-9750EF7F7491} = {9FC6B70B-A693-43B3-8308-DD240E9D255E}
+		{F7FDB5B3-F1C6-43FA-BC85-12851CC9DE7B} = {9FC6B70B-A693-43B3-8308-DD240E9D255E}
+		{675DB6FB-66A0-434E-88B6-4744F9A7EA21} = {9FC6B70B-A693-43B3-8308-DD240E9D255E}
 	EndGlobalSection
 EndGlobal
